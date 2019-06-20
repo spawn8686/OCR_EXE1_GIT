@@ -12,36 +12,36 @@ public class Ville
 	public static int nbrInstances = 0;
 	protected static int nbrInstancesBis = 0;
 	
-	//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	//									CONSTRUCTEUR
-	//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
-	// Constructeur par defaut de la class Ville
-	public Ville()
-	{
-		nomVille = "Inconnu";
-		nomPays = "Inconnu";
-		nbreHabitants = 0;
-		nbrInstances++;
-		nbrInstancesBis++;
-		
-		this.setCategorie();
-		System.out.println("Création d'une ville fantome\n");
-	}	
-	// Surcharge de constructeur de la class Ville avec paramètre
-	public Ville(String pVille, String pPays, int pNbr)
-	{
-		nomVille = pVille;
-		nomPays = pPays;
-		nbreHabitants = pNbr;
-		nbrInstances++;
-		nbrInstancesBis++;
-		
-		this.setCategorie();
-		System.out.println("\nCréation de "+pVille+"!");
-		System.out.println(pVille+" ce trouve en "+pPays+" et est composé d'environ "+pNbr+" habitants, ce qui la place dans la catégorie => "
-							+this.categorie+"\n");
-	}	
-	
+//	//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//	//									CONSTRUCTEUR
+//	//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+//	// Constructeur par defaut de la class Ville
+//	public Ville()
+//	{
+//		nomVille = "Inconnu";
+//		nomPays = "Inconnu";
+//		nbreHabitants = 0;
+//		nbrInstances++;
+//		nbrInstancesBis++;
+//		
+//		this.setCategorie();
+//		System.out.println("Création d'une ville fantome\n");
+//	}	
+//	// Surcharge de constructeur de la class Ville avec paramètre
+//	public Ville(String pVille, String pPays, int pNbr)
+//	{
+//		nomVille = pVille;
+//		nomPays = pPays;
+//		nbreHabitants = pNbr;
+//		nbrInstances++;
+//		nbrInstancesBis++;
+//		
+//		this.setCategorie();
+//		System.out.println("\nCréation de "+pVille+"!");
+//		System.out.println(pVille+" ce trouve en "+pPays+" et est composé d'environ "+pNbr+" habitants, ce qui la place dans la catégorie => "
+//							+this.categorie+"\n");
+//	}	
+//	
 	//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	//									GETTERS
 	//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
